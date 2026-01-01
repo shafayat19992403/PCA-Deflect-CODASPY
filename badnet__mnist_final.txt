@@ -1,0 +1,764 @@
+[CONFIG] Configuration loaded with PCA-Deflect Defense and NPD Defense support
+[CONFIG] Device: cpu
+[DEFENSES] Defense package initialized
+Start training with defense: pca-deflect
+Loading data
+build_classes_dict done
+train loaders done
+get poison test loader
+load data done
+entered model creation
+mnist model has been created.
+create model done
+Poisoned following participants: [0, 1, 2, 3]
+Server Epoch:1 choose agents : [0, 1, 2, 3, 6, 13, 18, 11, 17, 19].
+Adversarial agents this round: [0, 1, 2, 3]
+poison local model 0 index 0 
+poison_now
+___PoisonTrain Local_Simple ,  epoch   1, local model 0, internal_epoch   1,  Average loss: 0.0244, Accuracy: 1868/3000 (62.2667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 0, internal_epoch   2,  Average loss: 0.0040, Accuracy: 2740/3000 (91.3333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 0, internal_epoch   3,  Average loss: 0.0023, Accuracy: 2865/3000 (95.5000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 0, internal_epoch   4,  Average loss: 0.0017, Accuracy: 2909/3000 (96.9667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 0, internal_epoch   5,  Average loss: 0.0014, Accuracy: 2917/3000 (97.2333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 0, internal_epoch   6,  Average loss: 0.0015, Accuracy: 2909/3000 (96.9667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 0, internal_epoch   7,  Average loss: 0.0015, Accuracy: 2910/3000 (97.0000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 0, internal_epoch   8,  Average loss: 0.0013, Accuracy: 2930/3000 (97.6667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 0, internal_epoch   9,  Average loss: 0.0012, Accuracy: 2942/3000 (98.0667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 0, internal_epoch  10,  Average loss: 0.0011, Accuracy: 2928/3000 (97.6000%), train_poison_data_count: 1504
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 0 (int: 0) at epoch 1:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(0): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(0): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: None
+[PCA-DEFLECT DEBUG] - epoch (1) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   1, local model 0, internal_epoch   1,  Average loss: 0.0046, Accuracy: 2734/3000 (91.1333%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.2131, Accuracy: 9316/10000 (93.1600%)
+___Test Local_Simple poisoned: True, epoch: 1: Average loss: 6.2290, Accuracy: 923/9108 (10.1339%)
+poison local model 1 index 1 
+poison_now
+___PoisonTrain Local_Simple ,  epoch   1, local model 1, internal_epoch   1,  Average loss: 0.0285, Accuracy: 1725/3000 (57.5000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 1, internal_epoch   2,  Average loss: 0.0062, Accuracy: 2627/3000 (87.5667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 1, internal_epoch   3,  Average loss: 0.0024, Accuracy: 2861/3000 (95.3667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 1, internal_epoch   4,  Average loss: 0.0018, Accuracy: 2890/3000 (96.3333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 1, internal_epoch   5,  Average loss: 0.0016, Accuracy: 2900/3000 (96.6667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 1, internal_epoch   6,  Average loss: 0.0013, Accuracy: 2915/3000 (97.1667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 1, internal_epoch   7,  Average loss: 0.0014, Accuracy: 2913/3000 ([CONFIG] Configuration loaded with PCA-Deflect Defense and NPD Defense support
+[CONFIG] Device: cpu
+[DEFENSES] Defense package initialized
+Start training with defense: pca-deflect
+Loading data
+build_classes_dict done
+train loaders done
+get poison test loader
+load data done
+entered model creation
+mnist model has been created.
+create model done
+Poisoned following participants: [0, 1, 2, 3]
+Server Epoch:1 choose agents : [0, 1, 2, 3, 6, 13, 18, 11, 17, 19].
+Adversarial agents this round: [0, 1, 2, 3]
+poison local model 0 index 0 
+poison_now
+___PoisonTrain Local_Simple ,  epoch   1, local model 0, internal_epoch   1,  Average loss: 0.0244, Accuracy: 1868/3000 (62.2667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 0, internal_epoch   2,  Average loss: 0.0040, Accuracy: 2740/3000 (91.3333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 0, internal_epoch   3,  Average loss: 0.0023, Accuracy: 2865/3000 (95.5000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 0, internal_epoch   4,  Average loss: 0.0017, Accuracy: 2909/3000 (96.9667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 0, internal_epoch   5,  Average loss: 0.0014, Accuracy: 2917/3000 (97.2333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 0, internal_epoch   6,  Average loss: 0.0015, Accuracy: 2909/3000 (96.9667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 0, internal_epoch   7,  Average loss: 0.0015, Accuracy: 2910/3000 (97.0000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 0, internal_epoch   8,  Average loss: 0.0013, Accuracy: 2930/3000 (97.6667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 0, internal_epoch   9,  Average loss: 0.0012, Accuracy: 2942/3000 (98.0667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 0, internal_epoch  10,  Average loss: 0.0011, Accuracy: 2928/3000 (97.6000%), train_poison_data_count: 1504
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 0 (int: 0) at epoch 1:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(0): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(0): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: None
+[PCA-DEFLECT DEBUG] - epoch (1) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   1, local model 0, internal_epoch   1,  Average loss: 0.0046, Accuracy: 2734/3000 (91.1333%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.2131, Accuracy: 9316/10000 (93.1600%)
+___Test Local_Simple poisoned: True, epoch: 1: Average loss: 6.2290, Accuracy: 923/9108 (10.1339%)
+poison local model 1 index 1 
+poison_now
+___PoisonTrain Local_Simple ,  epoch   1, local model 1, internal_epoch   1,  Average loss: 0.0285, Accuracy: 1725/3000 (57.5000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 1, internal_epoch   2,  Average loss: 0.0062, Accuracy: 2627/3000 (87.5667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 1, internal_epoch   3,  Average loss: 0.0024, Accuracy: 2861/3000 (95.3667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 1, internal_epoch   4,  Average loss: 0.0018, Accuracy: 2890/3000 (96.3333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 1, internal_epoch   5,  Average loss: 0.0016, Accuracy: 2900/3000 (96.6667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 1, internal_epoch   6,  Average loss: 0.0013, Accuracy: 2915/3000 (97.1667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 1, internal_epoch   7,  Average loss: 0.0014, Accuracy: 2913/3000 (97.1000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 1, internal_epoch   8,  Average loss: 0.0010, Accuracy: 2932/3000 (97.7333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 1, internal_epoch   9,  Average loss: 0.0011, Accuracy: 2934/3000 (97.8000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 1, internal_epoch  10,  Average loss: 0.0010, Accuracy: 2942/3000 (98.0667%), train_poison_data_count: 1504
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 1 (int: 1) at epoch 1:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(1): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(1): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: None
+[PCA-DEFLECT DEBUG] - epoch (1) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   1, local model 1, internal_epoch   1,  Average loss: 0.0042, Accuracy: 2745/3000 (91.5000%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.2943, Accuracy: 9096/10000 (90.9600%)
+___Test Local_Simple poisoned: True, epoch: 1: Average loss: 6.8557, Accuracy: 1082/9108 (11.8797%)
+poison local model 2 index 2 
+poison_now
+___PoisonTrain Local_Simple ,  epoch   1, local model 2, internal_epoch   1,  Average loss: 0.0267, Accuracy: 1801/3000 (60.0333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 2, internal_epoch   2,  Average loss: 0.0045, Accuracy: 2732/3000 (91.0667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 2, internal_epoch   3,  Average loss: 0.0021, Accuracy: 2887/3000 (96.2333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 2, internal_epoch   4,  Average loss: 0.0015, Accuracy: 2912/3000 (97.0667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 2, internal_epoch   5,  Average loss: 0.0013, Accuracy: 2923/3000 (97.4333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 2, internal_epoch   6,  Average loss: 0.0013, Accuracy: 2921/3000 (97.3667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 2, internal_epoch   7,  Average loss: 0.0011, Accuracy: 2926/3000 (97.5333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 2, internal_epoch   8,  Average loss: 0.0009, Accuracy: 2945/3000 (98.1667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 2, internal_epoch   9,  Average loss: 0.0009, Accuracy: 2942/3000 (98.0667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 2, internal_epoch  10,  Average loss: 0.0008, Accuracy: 2950/3000 (98.3333%), train_poison_data_count: 1504
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 2 (int: 2) at epoch 1:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(2): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(2): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: None
+[PCA-DEFLECT DEBUG] - epoch (1) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   1, local model 2, internal_epoch   1,  Average loss: 0.0045, Accuracy: 2738/3000 (91.2667%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.2767, Accuracy: 9160/10000 (91.6000%)
+___Test Local_Simple poisoned: True, epoch: 1: Average loss: 6.3950, Accuracy: 1175/9108 (12.9007%)
+poison local model 3 index 3 
+poison_now
+___PoisonTrain Local_Simple ,  epoch   1, local model 3, internal_epoch   1,  Average loss: 0.0264, Accuracy: 1775/3000 (59.1667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 3, internal_epoch   2,  Average loss: 0.0049, Accuracy: 297.1000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 1, internal_epoch   8,  Average loss: 0.0010, Accuracy: 2932/3000 (97.7333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 1, internal_epoch   9,  Average loss: 0.0011, Accuracy: 2934/3000 (97.8000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 1, internal_epoch  10,  Average loss: 0.0010, Accuracy: 2942/3000 (98.0667%), train_poison_data_count: 1504
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 1 (int: 1) at epoch 1:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(1): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(1): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: None
+[PCA-DEFLECT DEBUG] - epoch (1) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   1, local model 1, internal_epoch   1,  Average loss: 0.0042, Accuracy: 2745/3000 (91.5000%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.2943, Accuracy: 9096/10000 (90.9600%)
+___Test Local_Simple poisoned: True, epoch: 1: Average loss: 6.8557, Accuracy: 1082/9108 (11.8797%)
+poison local model 2 index 2 
+poison_now
+___PoisonTrain Local_Simple ,  epoch   1, local model 2, internal_epoch   1,  Average loss: 0.0267, Accuracy: 1801/3000 (60.0333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 2, internal_epoch   2,  Average loss: 0.0045, Accuracy: 2732/3000 (91.0667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 2, internal_epoch   3,  Average loss: 0.0021, Accuracy: 2887/3000 (96.2333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 2, internal_epoch   4,  Average loss: 0.0015, Accuracy: 2912/3000 (97.0667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 2, internal_epoch   5,  Average loss: 0.0013, Accuracy: 2923/3000 (97.4333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 2, internal_epoch   6,  Average loss: 0.0013, Accuracy: 2921/3000 (97.3667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 2, internal_epoch   7,  Average loss: 0.0011, Accuracy: 2926/3000 (97.5333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 2, internal_epoch   8,  Average loss: 0.0009, Accuracy: 2945/3000 (98.1667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 2, internal_epoch   9,  Average loss: 0.0009, Accuracy: 2942/3000 (98.0667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 2, internal_epoch  10,  Average loss: 0.0008, Accuracy: 2950/3000 (98.3333%), train_poison_data_count: 1504
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 2 (int: 2) at epoch 1:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(2): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(2): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: None
+[PCA-DEFLECT DEBUG] - epoch (1) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   1, local model 2, internal_epoch   1,  Average loss: 0.0045, Accuracy: 2738/3000 (91.2667%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.2767, Accuracy: 9160/10000 (91.6000%)
+___Test Local_Simple poisoned: True, epoch: 1: Average loss: 6.3950, Accuracy: 1175/9108 (12.9007%)
+poison local model 3 index 3 
+poison_now
+___PoisonTrain Local_Simple ,  epoch   1, local model 3, internal_epoch   1,  Average loss: 0.0264, Accuracy: 1775/3000 (59.1667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 3, internal_epoch   2,  Average loss: 0.0049, Accuracy: 2704/3000 (90.1333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 3, internal_epoch   3,  Average loss: 0.0019, Accuracy: 2887/3000 (96.2333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 3, internal_epoch   4,  Average loss: 0.0016, Accuracy: 2900/3000 (96.6667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 3, internal_epoch   5,  Average loss: 0.0015, Accuracy: 2911/3000 (97.0333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 3, internal_epoch   6,  Average loss: 0.0014, Accuracy: 2918/3000 (97.2667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 3, internal_epoch   7,  Average loss: 0.0013, Accuracy: 2935/3000 (97.8333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 3, internal_epoch   8,  Average loss: 0.0012, Accuracy: 2933/3000 (97.7667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 3, internal_epoch   9,  Average loss: 0.0011, Accuracy: 2937/3000 (97.9000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 3, internal_epoch  10,  Average loss: 0.0009, Accuracy: 2939/3000 (97.9667%), train_poison_data_count: 1504
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 3 (int: 3) at epoch 1:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(3): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(3): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: None
+[PCA-DEFLECT DEBUG] - epoch (1) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   1, local model 3, internal_epoch   1,  Average loss: 0.0048, Accuracy: 2717/3000 (90.5667%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.2965, Accuracy: 9109/10000 (91.0900%)
+___Test Local_Simple poisoned: True, epoch: 1: Average loss: 3.8113, Accuracy: 3754/9108 (41.2165%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 6 (int: 6) at epoch 1:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(6): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(6): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: None
+[PCA-DEFLECT DEBUG] - epoch (1) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   1, local model 6, internal_epoch   1,  Average loss: 0.0484, Accuracy: 493/3000 (16.4333%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 1.4801, Accuracy: 4660/10000 (46.6000%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 13 (int: 13) at epoch 1:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(13): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(13): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: None
+[PCA-DEFLECT DEBUG] - epoch (1) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   1, local model 13, internal_epoch   1,  Average loss: 0.0500, Accuracy: 292/3000 (9.7333%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 2.3768, Accuracy: 974/10000 (9.7400%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 18 (int: 18) at epoch 1:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(18): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(18): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: None
+[PCA-DEFLECT DEBUG] - epoch (1) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   1, local model 18, internal_epoch   1,  Average loss: 0704/3000 (90.1333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 3, internal_epoch   3,  Average loss: 0.0019, Accuracy: 2887/3000 (96.2333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 3, internal_epoch   4,  Average loss: 0.0016, Accuracy: 2900/3000 (96.6667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 3, internal_epoch   5,  Average loss: 0.0015, Accuracy: 2911/3000 (97.0333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 3, internal_epoch   6,  Average loss: 0.0014, Accuracy: 2918/3000 (97.2667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 3, internal_epoch   7,  Average loss: 0.0013, Accuracy: 2935/3000 (97.8333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 3, internal_epoch   8,  Average loss: 0.0012, Accuracy: 2933/3000 (97.7667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 3, internal_epoch   9,  Average loss: 0.0011, Accuracy: 2937/3000 (97.9000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   1, local model 3, internal_epoch  10,  Average loss: 0.0009, Accuracy: 2939/3000 (97.9667%), train_poison_data_count: 1504
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 3 (int: 3) at epoch 1:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(3): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(3): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: None
+[PCA-DEFLECT DEBUG] - epoch (1) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   1, local model 3, internal_epoch   1,  Average loss: 0.0048, Accuracy: 2717/3000 (90.5667%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 0.2965, Accuracy: 9109/10000 (91.0900%)
+___Test Local_Simple poisoned: True, epoch: 1: Average loss: 3.8113, Accuracy: 3754/9108 (41.2165%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 6 (int: 6) at epoch 1:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(6): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(6): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: None
+[PCA-DEFLECT DEBUG] - epoch (1) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   1, local model 6, internal_epoch   1,  Average loss: 0.0484, Accuracy: 493/3000 (16.4333%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 1.4801, Accuracy: 4660/10000 (46.6000%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 13 (int: 13) at epoch 1:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(13): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(13): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: None
+[PCA-DEFLECT DEBUG] - epoch (1) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   1, local model 13, internal_epoch   1,  Average loss: 0.0500, Accuracy: 292/3000 (9.7333%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 2.3768, Accuracy: 974/10000 (9.7400%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 18 (int: 18) at epoch 1:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(18): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(18): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: None
+[PCA-DEFLECT DEBUG] - epoch (1) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   1, local model 18, internal_epoch   1,  Average loss: 0.0528, Accuracy: 305/3000 (10.1667%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 2.5842, Accuracy: 1028/10000 (10.2800%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 11 (int: 11) at epoch 1:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(11): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(11): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: None
+[PCA-DEFLECT DEBUG] - epoch (1) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   1, local model 11, internal_epoch   1,  Average loss: 0.0489, Accuracy: 355/3000 (11.8333%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 2.3761, Accuracy: 974/10000 (9.7400%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 17 (int: 17) at epoch 1:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(17): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(17): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: None
+[PCA-DEFLECT DEBUG] - epoch (1) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   1, local model 17, internal_epoch   1,  Average loss: 0.0507, Accuracy: 307/3000 (10.2333%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 2.4616, Accuracy: 982/10000 (9.8200%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 19 (int: 19) at epoch 1:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(19): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(19): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: None
+[PCA-DEFLECT DEBUG] - epoch (1) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   1, local model 19, internal_epoch   1,  Average loss: 0.0507, Accuracy: 298/3000 (9.9333%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 2.4813, Accuracy: 1135/10000 (11.3500%)
+
+[PCA-DEFLECT] No flagged clients processed for detection accuracy calculation.
+
+time spent on training: 98.7882149219513
+[DEBUG] PCA deflect defense NOT applied at epoch 1
+[DEBUG] Current flagged clients (should persist): []
+[PCA-DEFLECT TEST] Set dummy trigger label to 1
+[PCA-DEFLECT] Set dummy trigger label for testing
+[MAIN] Aggregating updates from 10 agents
+lengthof agents: 10
+___Test Target_Simple poisoned: False, epoch: 1: Average loss: 4.0036, Accuracy: 892/10000 (8.9200%)
+___Test Target_Simple poisoned: True, epoch: 1: Average loss: 3.9332, Accuracy: 9108/9108 (100.0000%)
+[Epoch 1] Backdoor Accuracy: 9108/9108 (100.00%)
+
+[EPOCH 1 SUMMARY]
+  Clean Accuracy: 8.92%
+  Attack Success Rate: 100.00%
+  Time: 111.55s
+Server Epoch:2 choose agents : [0, 1, 2, 3, 16, 4, 8, 10, 7, 17].
+Adversarial agents this round: [0, 1, 2, 3]
+poison local model 0 index 0 
+poison_now
+___PoisonTrain Local_Simple ,  epoch   2, local model 0, internal_epoch   1,  Average loss: 0.0295, Accuracy: 1824/3000 (60.8000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 0, internal_epoch   2,  Average loss: 0.0041, Accuracy: 2733/3000 (91.1000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 0, internal_epoch   3,  Average loss: 0.0018, Accuracy: 2899/3000 (96.6333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 0, internal_epoch   4,  Average loss: 0.0014, Accuracy: 2920/3000 (97.3333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 0, internal_epoch   5,  Average loss: 0.0012, Accuracy: 2932/3000 (97.7333%), train_poison_data_count: 1504
+.0528, Accuracy: 305/3000 (10.1667%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 2.5842, Accuracy: 1028/10000 (10.2800%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 11 (int: 11) at epoch 1:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(11): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(11): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: None
+[PCA-DEFLECT DEBUG] - epoch (1) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   1, local model 11, internal_epoch   1,  Average loss: 0.0489, Accuracy: 355/3000 (11.8333%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 2.3761, Accuracy: 974/10000 (9.7400%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 17 (int: 17) at epoch 1:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(17): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(17): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: None
+[PCA-DEFLECT DEBUG] - epoch (1) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   1, local model 17, internal_epoch   1,  Average loss: 0.0507, Accuracy: 307/3000 (10.2333%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 2.4616, Accuracy: 982/10000 (9.8200%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 19 (int: 19) at epoch 1:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(19): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(19): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: None
+[PCA-DEFLECT DEBUG] - epoch (1) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   1, local model 19, internal_epoch   1,  Average loss: 0.0507, Accuracy: 298/3000 (9.9333%)
+___Test Local_Simple poisoned: False, epoch: 1: Average loss: 2.4813, Accuracy: 1135/10000 (11.3500%)
+
+[PCA-DEFLECT] No flagged clients processed for detection accuracy calculation.
+
+time spent on training: 98.7882149219513
+[DEBUG] PCA deflect defense NOT applied at epoch 1
+[DEBUG] Current flagged clients (should persist): []
+[PCA-DEFLECT TEST] Set dummy trigger label to 1
+[PCA-DEFLECT] Set dummy trigger label for testing
+[MAIN] Aggregating updates from 10 agents
+lengthof agents: 10
+___Test Target_Simple poisoned: False, epoch: 1: Average loss: 4.0036, Accuracy: 892/10000 (8.9200%)
+___Test Target_Simple poisoned: True, epoch: 1: Average loss: 3.9332, Accuracy: 9108/9108 (100.0000%)
+[Epoch 1] Backdoor Accuracy: 9108/9108 (100.00%)
+
+[EPOCH 1 SUMMARY]
+  Clean Accuracy: 8.92%
+  Attack Success Rate: 100.00%
+  Time: 111.55s
+Server Epoch:2 choose agents : [0, 1, 2, 3, 16, 4, 8, 10, 7, 17].
+Adversarial agents this round: [0, 1, 2, 3]
+poison local model 0 index 0 
+poison_now
+___PoisonTrain Local_Simple ,  epoch   2, local model 0, internal_epoch   1,  Average loss: 0.0295, Accuracy: 1824/3000 (60.8000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 0, internal_epoch   2,  Average loss: 0.0041, Accuracy: 2733/3000 (91.1000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 0, internal_epoch   3,  Average loss: 0.0018, Accuracy: 2899/3000 (96.6333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 0, internal_epoch   4,  Average loss: 0.0014, Accuracy: 2920/3000 (97.3333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 0, internal_epoch   5,  Average loss: 0.0012, Accuracy: 2932/3000 (97.7333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 0, internal_epoch   6,  Average loss: 0.0013, Accuracy: 2930/3000 (97.6667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 0, internal_epoch   7,  Average loss: 0.0011, Accuracy: 2931/3000 (97.7000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 0, internal_epoch   8,  Average loss: 0.0010, Accuracy: 2940/3000 (98.0000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 0, internal_epoch   9,  Average loss: 0.0010, Accuracy: 2942/3000 (98.0667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 0, internal_epoch  10,  Average loss: 0.0010, Accuracy: 2939/3000 (97.9667%), train_poison_data_count: 1504
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 0 (int: 0) at epoch 2:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(0): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(0): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: 1
+[PCA-DEFLECT DEBUG] - epoch (2) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   2, local model 0, internal_epoch   1,  Average loss: 0.0043, Accuracy: 2743/3000 (91.4333%)
+___Test Local_Simple poisoned: False, epoch: 2: Average loss: 0.1924, Accuracy: 9439/10000 (94.3900%)
+___Test Local_Simple poisoned: True, epoch: 2: Average loss: 4.1133, Accuracy: 2823/9108 (30.9947%)
+poison local model 1 index 1 
+poison_now
+___PoisonTrain Local_Simple ,  epoch   2, local model 1, internal_epoch   1,  Average loss: 0.0294, Accuracy: 1830/3000 (61.0000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 1, internal_epoch   2,  Average loss: 0.0038, Accuracy: 2755/3000 (91.8333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 1, internal_epoch   3,  Average loss: 0.0018, Accuracy: 2905/3000 (96.8333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 1, internal_epoch   4,  Average loss: 0.0014, Accuracy: 2913/3000 (97.1000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 1, internal_epoch   5,  Average loss: 0.0012, Accuracy: 2932/3000 (97.7333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 1, internal_epoch   6,  Average loss: 0.0011, Accuracy: 2932/3000 (97.7333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 1, internal_epoch   7,  Average loss: 0.0011, Accuracy: 2936/3000 (97.8667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 1, internal_epoch   8,  Average loss: 0.0009, Accuracy: 2948/3000 (98.2667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 1, internal_epoch   9,  Average loss: 0.0009, Accuracy: 2947/3000 (98.2333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 1, internal_epoch  10,  Average loss: 0.0007, Accuracy: 2964/3000 (98.8000%), train_poison_data_count: 1504
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 1 (int: 1) at epoch 2:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(1): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(1): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: 1
+[PCA-DEFLECT DEBUG] - epoch (2) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   2, local model 1, internal_epoch   1,  Average loss: 0.0046, Accuracy: 2713/3000 (90.4333%)
+___Test Local_Simple poisoned: False, epoch: 2: Average loss: 0.2897, Accuracy: 9127/10000 (91.2700%)
+___Test Local_Simple poisoned: True, epoch: 2: Average loss: 5.6184, Accuracy: 1340/9108 (14.7123%)
+poison local model 2 index 2 
+poison____PoisonTrain Local_Simple ,  epoch   2, local model 0, internal_epoch   6,  Average loss: 0.0013, Accuracy: 2930/3000 (97.6667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 0, internal_epoch   7,  Average loss: 0.0011, Accuracy: 2931/3000 (97.7000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 0, internal_epoch   8,  Average loss: 0.0010, Accuracy: 2940/3000 (98.0000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 0, internal_epoch   9,  Average loss: 0.0010, Accuracy: 2942/3000 (98.0667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 0, internal_epoch  10,  Average loss: 0.0010, Accuracy: 2939/3000 (97.9667%), train_poison_data_count: 1504
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 0 (int: 0) at epoch 2:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(0): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(0): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: 1
+[PCA-DEFLECT DEBUG] - epoch (2) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   2, local model 0, internal_epoch   1,  Average loss: 0.0043, Accuracy: 2743/3000 (91.4333%)
+___Test Local_Simple poisoned: False, epoch: 2: Average loss: 0.1924, Accuracy: 9439/10000 (94.3900%)
+___Test Local_Simple poisoned: True, epoch: 2: Average loss: 4.1133, Accuracy: 2823/9108 (30.9947%)
+poison local model 1 index 1 
+poison_now
+___PoisonTrain Local_Simple ,  epoch   2, local model 1, internal_epoch   1,  Average loss: 0.0294, Accuracy: 1830/3000 (61.0000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 1, internal_epoch   2,  Average loss: 0.0038, Accuracy: 2755/3000 (91.8333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 1, internal_epoch   3,  Average loss: 0.0018, Accuracy: 2905/3000 (96.8333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 1, internal_epoch   4,  Average loss: 0.0014, Accuracy: 2913/3000 (97.1000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 1, internal_epoch   5,  Average loss: 0.0012, Accuracy: 2932/3000 (97.7333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 1, internal_epoch   6,  Average loss: 0.0011, Accuracy: 2932/3000 (97.7333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 1, internal_epoch   7,  Average loss: 0.0011, Accuracy: 2936/3000 (97.8667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 1, internal_epoch   8,  Average loss: 0.0009, Accuracy: 2948/3000 (98.2667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 1, internal_epoch   9,  Average loss: 0.0009, Accuracy: 2947/3000 (98.2333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 1, internal_epoch  10,  Average loss: 0.0007, Accuracy: 2964/3000 (98.8000%), train_poison_data_count: 1504
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 1 (int: 1) at epoch 2:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(1): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(1): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: 1
+[PCA-DEFLECT DEBUG] - epoch (2) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   2, local model 1, internal_epoch   1,  Average loss: 0.0046, Accuracy: 2713/3000 (90.4333%)
+___Test Local_Simple poisoned: False, epoch: 2: Average loss: 0.2897, Accuracy: 9127/10000 (91.2700%)
+___Test Local_Simple poisoned: True, epoch: 2: Average loss: 5.6184, Accuracy: 1340/9108 (14.7123%)
+poison local model 2 index 2 
+poison_now
+___PoisonTrain Local_Simple ,  epoch   2, local model 2, internal_epoch   1,  Average loss: 0.0296, Accuracy: 1804/3000 (60.1333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 2, internal_epoch   2,  Average loss: 0.0044, Accuracy: 2731/3000 (91.0333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 2, internal_epoch   3,  Average loss: 0.0014, Accuracy: 2915/3000 (97.1667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 2, internal_epoch   4,  Average loss: 0.0011, Accuracy: 2935/3000 (97.8333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 2, internal_epoch   5,  Average loss: 0.0009, Accuracy: 2946/3000 (98.2000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 2, internal_epoch   6,  Average loss: 0.0010, Accuracy: 2942/3000 (98.0667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 2, internal_epoch   7,  Average loss: 0.0008, Accuracy: 2948/3000 (98.2667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 2, internal_epoch   8,  Average loss: 0.0008, Accuracy: 2958/3000 (98.6000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 2, internal_epoch   9,  Average loss: 0.0009, Accuracy: 2954/3000 (98.4667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 2, internal_epoch  10,  Average loss: 0.0007, Accuracy: 2963/3000 (98.7667%), train_poison_data_count: 1504
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 2 (int: 2) at epoch 2:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(2): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(2): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: 1
+[PCA-DEFLECT DEBUG] - epoch (2) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   2, local model 2, internal_epoch   1,  Average loss: 0.0049, Accuracy: 2703/3000 (90.1000%)
+___Test Local_Simple poisoned: False, epoch: 2: Average loss: 0.1763, Accuracy: 9467/10000 (94.6700%)
+___Test Local_Simple poisoned: True, epoch: 2: Average loss: 5.0550, Accuracy: 1949/9108 (21.3988%)
+poison local model 3 index 3 
+poison_now
+___PoisonTrain Local_Simple ,  epoch   2, local model 3, internal_epoch   1,  Average loss: 0.0291, Accuracy: 1854/3000 (61.8000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 3, internal_epoch   2,  Average loss: 0.0043, Accuracy: 2717/3000 (90.5667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 3, internal_epoch   3,  Average loss: 0.0017, Accuracy: 2910/3000 (97.0000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 3, internal_epoch   4,  Average loss: 0.0014, Accuracy: 2912/3000 (97.0667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 3, internal_epoch   5,  Average loss: 0.0012, Accuracy: 2935/3000 (97.8333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 3, internal_epoch   6,  Average loss: 0.0011, Accuracy: 2947/3000 (98.2333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 3, internal_epoch   7,  Average loss: 0.0012, Accuracy: 2944/3000 (98.1333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 3, internal_epoch   8,  Average loss: 0.0009, Accuracy: 2958/3000 (98.6000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 3, internal_epoch   9,  Average loss: 0.0009, Accuracy: 2960/3000 (98.6667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 3, internal_epoch  10,  Average loss: 0.0009, Accuracy: 2954/3000 (98.4667%), train_poison_data_count: 1504
+[PCA-DEFLECT DEnow
+___PoisonTrain Local_Simple ,  epoch   2, local model 2, internal_epoch   1,  Average loss: 0.0296, Accuracy: 1804/3000 (60.1333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 2, internal_epoch   2,  Average loss: 0.0044, Accuracy: 2731/3000 (91.0333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 2, internal_epoch   3,  Average loss: 0.0014, Accuracy: 2915/3000 (97.1667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 2, internal_epoch   4,  Average loss: 0.0011, Accuracy: 2935/3000 (97.8333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 2, internal_epoch   5,  Average loss: 0.0009, Accuracy: 2946/3000 (98.2000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 2, internal_epoch   6,  Average loss: 0.0010, Accuracy: 2942/3000 (98.0667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 2, internal_epoch   7,  Average loss: 0.0008, Accuracy: 2948/3000 (98.2667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 2, internal_epoch   8,  Average loss: 0.0008, Accuracy: 2958/3000 (98.6000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 2, internal_epoch   9,  Average loss: 0.0009, Accuracy: 2954/3000 (98.4667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 2, internal_epoch  10,  Average loss: 0.0007, Accuracy: 2963/3000 (98.7667%), train_poison_data_count: 1504
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 2 (int: 2) at epoch 2:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(2): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(2): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: 1
+[PCA-DEFLECT DEBUG] - epoch (2) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   2, local model 2, internal_epoch   1,  Average loss: 0.0049, Accuracy: 2703/3000 (90.1000%)
+___Test Local_Simple poisoned: False, epoch: 2: Average loss: 0.1763, Accuracy: 9467/10000 (94.6700%)
+___Test Local_Simple poisoned: True, epoch: 2: Average loss: 5.0550, Accuracy: 1949/9108 (21.3988%)
+poison local model 3 index 3 
+poison_now
+___PoisonTrain Local_Simple ,  epoch   2, local model 3, internal_epoch   1,  Average loss: 0.0291, Accuracy: 1854/3000 (61.8000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 3, internal_epoch   2,  Average loss: 0.0043, Accuracy: 2717/3000 (90.5667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 3, internal_epoch   3,  Average loss: 0.0017, Accuracy: 2910/3000 (97.0000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 3, internal_epoch   4,  Average loss: 0.0014, Accuracy: 2912/3000 (97.0667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 3, internal_epoch   5,  Average loss: 0.0012, Accuracy: 2935/3000 (97.8333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 3, internal_epoch   6,  Average loss: 0.0011, Accuracy: 2947/3000 (98.2333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 3, internal_epoch   7,  Average loss: 0.0012, Accuracy: 2944/3000 (98.1333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 3, internal_epoch   8,  Average loss: 0.0009, Accuracy: 2958/3000 (98.6000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 3, internal_epoch   9,  Average loss: 0.0009, Accuracy: 2960/3000 (98.6667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   2, local model 3, internal_epoch  10,  Average loss: 0.0009, Accuracy: 2954/3000 (98.4667%), train_poison_data_count: 1504
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 3 (int: 3) at epoch 2:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(3): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(3): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: 1
+[PCA-DEFLECT DEBUG] - epoch (2) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   2, local model 3, internal_epoch   1,  Average loss: 0.0042, Accuracy: 2757/3000 (91.9000%)
+___Test Local_Simple poisoned: False, epoch: 2: Average loss: 0.2564, Accuracy: 9157/10000 (91.5700%)
+___Test Local_Simple poisoned: True, epoch: 2: Average loss: 3.5665, Accuracy: 3375/9108 (37.0553%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 16 (int: 16) at epoch 2:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(16): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(16): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: 1
+[PCA-DEFLECT DEBUG] - epoch (2) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   2, local model 16, internal_epoch   1,  Average loss: 0.0392, Accuracy: 829/3000 (27.6333%)
+___Test Local_Simple poisoned: False, epoch: 2: Average loss: 0.6488, Accuracy: 8180/10000 (81.8000%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 4 (int: 4) at epoch 2:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(4): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(4): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: 1
+[PCA-DEFLECT DEBUG] - epoch (2) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   2, local model 4, internal_epoch   1,  Average loss: 0.0350, Accuracy: 1108/3000 (36.9333%)
+___Test Local_Simple poisoned: False, epoch: 2: Average loss: 0.5212, Accuracy: 8357/10000 (83.5700%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 8 (int: 8) at epoch 2:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(8): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(8): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: 1
+[PCA-DEFLECT DEBUG] - epoch (2) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   2, local model 8, internal_epoch   1,  Average loss: 0.0428, Accuracy: 725/3000 (24.1667%)
+___Test Local_Simple poisoned: False, epoch: 2: Average loss: 0.9630, Accuracy: 6969/10000 (69.6900%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 10 (int: 10) at epoch 2:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(10): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(10): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: 1
+[PCA-DEFLECT DEBUG] - epoch (2) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   2, local model 10, internal_epoch   1,  Average loss: 0.0341, Accuracy: 1079/3000 (35.9667%)
+___Test Local_Simple poisoned: False, epoch: 2: Average loss: 0.4014, Accuracy: 8739/10000 (87.3900%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 7 (int: 7) at epoch 2:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(7): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(7): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: 1
+[PCA-DEFLECT DEBUG] - epoch (2) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   2, local model 7, internal_epoch   1,  AvBUG] Checking filtering conditions for client 3 (int: 3) at epoch 2:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(3): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(3): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: 1
+[PCA-DEFLECT DEBUG] - epoch (2) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   2, local model 3, internal_epoch   1,  Average loss: 0.0042, Accuracy: 2757/3000 (91.9000%)
+___Test Local_Simple poisoned: False, epoch: 2: Average loss: 0.2564, Accuracy: 9157/10000 (91.5700%)
+___Test Local_Simple poisoned: True, epoch: 2: Average loss: 3.5665, Accuracy: 3375/9108 (37.0553%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 16 (int: 16) at epoch 2:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(16): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(16): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: 1
+[PCA-DEFLECT DEBUG] - epoch (2) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   2, local model 16, internal_epoch   1,  Average loss: 0.0392, Accuracy: 829/3000 (27.6333%)
+___Test Local_Simple poisoned: False, epoch: 2: Average loss: 0.6488, Accuracy: 8180/10000 (81.8000%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 4 (int: 4) at epoch 2:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(4): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(4): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: 1
+[PCA-DEFLECT DEBUG] - epoch (2) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   2, local model 4, internal_epoch   1,  Average loss: 0.0350, Accuracy: 1108/3000 (36.9333%)
+___Test Local_Simple poisoned: False, epoch: 2: Average loss: 0.5212, Accuracy: 8357/10000 (83.5700%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 8 (int: 8) at epoch 2:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(8): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(8): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: 1
+[PCA-DEFLECT DEBUG] - epoch (2) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   2, local model 8, internal_epoch   1,  Average loss: 0.0428, Accuracy: 725/3000 (24.1667%)
+___Test Local_Simple poisoned: False, epoch: 2: Average loss: 0.9630, Accuracy: 6969/10000 (69.6900%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 10 (int: 10) at epoch 2:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(10): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(10): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: 1
+[PCA-DEFLECT DEBUG] - epoch (2) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   2, local model 10, internal_epoch   1,  Average loss: 0.0341, Accuracy: 1079/3000 (35.9667%)
+___Test Local_Simple poisoned: False, epoch: 2: Average loss: 0.4014, Accuracy: 8739/10000 (87.3900%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 7 (int: 7) at epoch 2:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(7): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(7): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: 1
+[PCA-DEFLECT DEBUG] - epoch (2) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   2, local model 7, internal_epoch   1,  Average loss: 0.0428, Accuracy: 685/3000 (22.8333%)
+___Test Local_Simple poisoned: False, epoch: 2: Average loss: 1.3106, Accuracy: 7056/10000 (70.5600%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 17 (int: 17) at epoch 2:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(17): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(17): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: 1
+[PCA-DEFLECT DEBUG] - epoch (2) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   2, local model 17, internal_epoch   1,  Average loss: 0.0369, Accuracy: 1029/3000 (34.3000%)
+___Test Local_Simple poisoned: False, epoch: 2: Average loss: 0.4475, Accuracy: 8598/10000 (85.9800%)
+
+[PCA-DEFLECT] No flagged clients processed for detection accuracy calculation.
+
+time spent on training: 102.01339221000671
+[DEBUG] PCA deflect defense NOT applied at epoch 2
+[DEBUG] Current flagged clients (should persist): []
+[MAIN] Aggregating updates from 10 agents
+lengthof agents: 10
+___Test Target_Simple poisoned: False, epoch: 2: Average loss: 3.8673, Accuracy: 892/10000 (8.9200%)
+___Test Target_Simple poisoned: True, epoch: 2: Average loss: 3.7260, Accuracy: 9108/9108 (100.0000%)
+[Epoch 2] Backdoor Accuracy: 9108/9108 (100.00%)
+
+[EPOCH 2 SUMMARY]
+  Clean Accuracy: 8.92%
+  Attack Success Rate: 100.00%
+  Time: 114.27s
+Server Epoch:3 choose agents : [0, 1, 2, 3, 17, 4, 19, 18, 7, 12].
+Adversarial agents this round: [0, 1, 2, 3]
+poison local model 0 index 0 
+poison_now
+___PoisonTrain Local_Simple ,  epoch   3, local model 0, internal_epoch   1,  Average loss: 0.0260, Accuracy: 1968/3000 (65.6000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   3, local model 0, internal_epoch   2,  Average loss: 0.0032, Accuracy: 2800/3000 (93.3333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   3, local model 0, internal_epoch   3,  Average loss: 0.0014, Accuracy: 2918/3000 (97.2667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   3, local model 0, internal_epoch   4,  Average loss: 0.0013, Accuracy: 2926/3000 (97.5333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   3, local model 0, internal_epoch   5,  Average loss: 0.0011, Accuracy: 2931/3000 (97.7000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   3, local model 0, internal_epoch   6,  Average loss: 0.0010, Accuracy: 2944/3000 (98.1333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   3, local model 0, internal_epoch   7,  Average loss: 0.0009, Accuracy: 2950/3000 (98.3333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   3, local model 0, internal_epoch   8,  Average loss: 0.0009, Accuracy: 2937/3000 (97.9000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   3, local model 0, internal_epoch   9,  Average loss: 0.0008, Accuracy: 2948/3000 (98.2667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   3, local model 0, internal_epoch  10,  Average loss: 0.0008, Accuracy: 2951/3000 (98.3667%), train_poison_data_count: 1504
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 0 (int: 0) at epoch 3:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(0): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(0): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: 1
+[PCA-DEFLECT DEBUG] - epoch (3) >= min_rounds (3): True
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   3, local model 0, internal_epoch   1,  Average loss: 0.0040, Accuracy: 2764/3000 (92.1333%)
+___Test Local_Simple poisoned: False, epoch: 3: Average loss: 0.1752, Accuracy: 9470/10000 (94.7000%)
+___Test Local_Simple poisoned: True, epoch: 3: Average loss: 0.6110, Accuracy: 7416/9108 (81.4229%)
+poison local model 1 index 1 
+poison_now
+erage loss: 0.0428, Accuracy: 685/3000 (22.8333%)
+___Test Local_Simple poisoned: False, epoch: 2: Average loss: 1.3106, Accuracy: 7056/10000 (70.5600%)
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 17 (int: 17) at epoch 2:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(17): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(17): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: 1
+[PCA-DEFLECT DEBUG] - epoch (2) >= min_rounds (3): False
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   2, local model 17, internal_epoch   1,  Average loss: 0.0369, Accuracy: 1029/3000 (34.3000%)
+___Test Local_Simple poisoned: False, epoch: 2: Average loss: 0.4475, Accuracy: 8598/10000 (85.9800%)
+
+[PCA-DEFLECT] No flagged clients processed for detection accuracy calculation.
+
+time spent on training: 102.01339221000671
+[DEBUG] PCA deflect defense NOT applied at epoch 2
+[DEBUG] Current flagged clients (should persist): []
+[MAIN] Aggregating updates from 10 agents
+lengthof agents: 10
+___Test Target_Simple poisoned: False, epoch: 2: Average loss: 3.8673, Accuracy: 892/10000 (8.9200%)
+___Test Target_Simple poisoned: True, epoch: 2: Average loss: 3.7260, Accuracy: 9108/9108 (100.0000%)
+[Epoch 2] Backdoor Accuracy: 9108/9108 (100.00%)
+
+[EPOCH 2 SUMMARY]
+  Clean Accuracy: 8.92%
+  Attack Success Rate: 100.00%
+  Time: 114.27s
+Server Epoch:3 choose agents : [0, 1, 2, 3, 17, 4, 19, 18, 7, 12].
+Adversarial agents this round: [0, 1, 2, 3]
+poison local model 0 index 0 
+poison_now
+___PoisonTrain Local_Simple ,  epoch   3, local model 0, internal_epoch   1,  Average loss: 0.0260, Accuracy: 1968/3000 (65.6000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   3, local model 0, internal_epoch   2,  Average loss: 0.0032, Accuracy: 2800/3000 (93.3333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   3, local model 0, internal_epoch   3,  Average loss: 0.0014, Accuracy: 2918/3000 (97.2667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   3, local model 0, internal_epoch   4,  Average loss: 0.0013, Accuracy: 2926/3000 (97.5333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   3, local model 0, internal_epoch   5,  Average loss: 0.0011, Accuracy: 2931/3000 (97.7000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   3, local model 0, internal_epoch   6,  Average loss: 0.0010, Accuracy: 2944/3000 (98.1333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   3, local model 0, internal_epoch   7,  Average loss: 0.0009, Accuracy: 2950/3000 (98.3333%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   3, local model 0, internal_epoch   8,  Average loss: 0.0009, Accuracy: 2937/3000 (97.9000%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   3, local model 0, internal_epoch   9,  Average loss: 0.0008, Accuracy: 2948/3000 (98.2667%), train_poison_data_count: 1504
+___PoisonTrain Local_Simple ,  epoch   3, local model 0, internal_epoch  10,  Average loss: 0.0008, Accuracy: 2951/3000 (98.3667%), train_poison_data_count: 1504
+[PCA-DEFLECT DEBUG] Checking filtering conditions for client 0 (int: 0) at epoch 3:
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_FILTERING: True
+[PCA-DEFLECT DEBUG] - PCA_DEFLECT_ENABLE_DUAL_TRAINING: True
+[PCA-DEFLECT DEBUG] - is_client_flagged(0): False
+[PCA-DEFLECT DEBUG] - is_client_flagged(0): False
+[PCA-DEFLECT DEBUG] - detected_trigger_label: 1
+[PCA-DEFLECT DEBUG] - epoch (3) >= min_rounds (3): True
+[PCA-DEFLECT DEBUG] - should_apply_filtering result: False
+___Train Local_Simple,  epoch   3, local model 0, internal_epoch   1,  Average loss: 0.0040, Accuracy: 2764/3000 (92.1333%)
+___Test Local_Simple poisoned: False, epoch: 3: Average loss: 0.1752, Accuracy: 9470/10000 (94.7000%)
+___Test Local_Simple poisoned: True, epoch: 3: Average loss: 0.6110, Accuracy: 7416/9108 (81.4229%)
+poison local model 1 index 1 
+poison_now
